@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B13EFDD5274000190018F620 /* InstasoupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13EFDD4274000190018F620 /* InstasoupApp.swift */; };
+		B13EFDD7274000190018F620 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13EFDD6274000190018F620 /* HomeView.swift */; };
+		B13EFDD9274000200018F620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13EFDD8274000200018F620 /* Assets.xcassets */; };
+		B13EFDDC274000200018F620 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13EFDDB274000200018F620 /* Preview Assets.xcassets */; };
+		B13EFDE3274000EB0018F620 /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf in Resources */ = {isa = PBXBuildFile; fileRef = B13EFDE2274000EB0018F620 /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf */; };
+		B1ED7CDD274019370051822C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ED7CDC274019370051822C /* ViewModel.swift */; };
+		B1ED7CDF274019CC0051822C /* ViewModelMockFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ED7CDE274019CC0051822C /* ViewModelMockFactory.swift */; };
+		B1FD305C2741B06600075392 /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FD305B2741B06600075392 /* StoriesView.swift */; };
+		B1FD305E2741B08500075392 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FD305D2741B08500075392 /* StoryView.swift */; };
+		B1FD30612741B0A600075392 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FD30602741B0A600075392 /* PostView.swift */; };
+		B1FD30642741B0C800075392 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FD30632741B0C800075392 /* HeaderView.swift */; };
+		B1FD30662741B0FA00075392 /* PostProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FD30652741B0FA00075392 /* PostProfileImageView.swift */; };
+		B1FD30692741B12100075392 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FD30682741B12100075392 /* ActionButtonView.swift */; };
+		B1FD306B2741B13700075392 /* ActionIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FD306A2741B13700075392 /* ActionIconType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B13EFDD1274000190018F620 /* Instasoup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instasoup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13EFDD4274000190018F620 /* InstasoupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstasoupApp.swift; sourceTree = "<group>"; };
+		B13EFDD6274000190018F620 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B13EFDD8274000200018F620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B13EFDDB274000200018F620 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B13EFDE2274000EB0018F620 /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf"; sourceTree = "<group>"; };
+		B1ED7CDC274019370051822C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B1ED7CDE274019CC0051822C /* ViewModelMockFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelMockFactory.swift; sourceTree = "<group>"; };
+		B1FD305B2741B06600075392 /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
+		B1FD305D2741B08500075392 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		B1FD30602741B0A600075392 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		B1FD30632741B0C800075392 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B1FD30652741B0FA00075392 /* PostProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProfileImageView.swift; sourceTree = "<group>"; };
+		B1FD30682741B12100075392 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
+		B1FD306A2741B13700075392 /* ActionIconType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionIconType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B13EFDCE274000190018F620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B13EFDC8274000190018F620 = {
+			isa = PBXGroup;
+			children = (
+				B13EFDD3274000190018F620 /* Instasoup */,
+				B13EFDD2274000190018F620 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B13EFDD2274000190018F620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B13EFDD1274000190018F620 /* Instasoup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B13EFDD3274000190018F620 /* Instasoup */ = {
+			isa = PBXGroup;
+			children = (
+				B1ED7CE027401A880051822C /* HomeViewModel */,
+				B1FD30592741ACA600075392 /* HomeView */,
+				B13EFDD4274000190018F620 /* InstasoupApp.swift */,
+				B13EFDD8274000200018F620 /* Assets.xcassets */,
+				B13EFDE2274000EB0018F620 /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf */,
+				B13EFDDA274000200018F620 /* Preview Content */,
+			);
+			path = Instasoup;
+			sourceTree = "<group>";
+		};
+		B13EFDDA274000200018F620 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B13EFDDB274000200018F620 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1ED7CE027401A880051822C /* HomeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1ED7CDC274019370051822C /* ViewModel.swift */,
+				B1ED7CDE274019CC0051822C /* ViewModelMockFactory.swift */,
+			);
+			path = HomeViewModel;
+			sourceTree = "<group>";
+		};
+		B1FD30592741ACA600075392 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				B13EFDD6274000190018F620 /* HomeView.swift */,
+				B1FD30622741B0BE00075392 /* HeaderView */,
+				B1FD305A2741B05C00075392 /* StoryView */,
+				B1FD305F2741B09F00075392 /* PostView */,
+				B1FD30672741B11300075392 /* ActionButtonView */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		B1FD305A2741B05C00075392 /* StoryView */ = {
+			isa = PBXGroup;
+			children = (
+				B1FD305D2741B08500075392 /* StoryView.swift */,
+				B1FD305B2741B06600075392 /* StoriesView.swift */,
+			);
+			path = StoryView;
+			sourceTree = "<group>";
+		};
+		B1FD305F2741B09F00075392 /* PostView */ = {
+			isa = PBXGroup;
+			children = (
+				B1FD30602741B0A600075392 /* PostView.swift */,
+				B1FD30652741B0FA00075392 /* PostProfileImageView.swift */,
+			);
+			path = PostView;
+			sourceTree = "<group>";
+		};
+		B1FD30622741B0BE00075392 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				B1FD30632741B0C800075392 /* HeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		B1FD30672741B11300075392 /* ActionButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				B1FD30682741B12100075392 /* ActionButtonView.swift */,
+				B1FD306A2741B13700075392 /* ActionIconType.swift */,
+			);
+			path = ActionButtonView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B13EFDD0274000190018F620 /* Instasoup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13EFDDF274000200018F620 /* Build configuration list for PBXNativeTarget "Instasoup" */;
+			buildPhases = (
+				B13EFDCD274000190018F620 /* Sources */,
+				B13EFDCE274000190018F620 /* Frameworks */,
+				B13EFDCF274000190018F620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instasoup;
+			productName = Instasoup;
+			productReference = B13EFDD1274000190018F620 /* Instasoup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B13EFDC9274000190018F620 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B13EFDD0274000190018F620 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = B13EFDCC274000190018F620 /* Build configuration list for PBXProject "Instasoup" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B13EFDC8274000190018F620;
+			productRefGroup = B13EFDD2274000190018F620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13EFDD0274000190018F620 /* Instasoup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B13EFDCF274000190018F620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13EFDDC274000200018F620 /* Preview Assets.xcassets in Resources */,
+				B13EFDD9274000200018F620 /* Assets.xcassets in Resources */,
+				B13EFDE3274000EB0018F620 /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B13EFDCD274000190018F620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FD30662741B0FA00075392 /* PostProfileImageView.swift in Sources */,
+				B1FD306B2741B13700075392 /* ActionIconType.swift in Sources */,
+				B1FD30612741B0A600075392 /* PostView.swift in Sources */,
+				B1FD305E2741B08500075392 /* StoryView.swift in Sources */,
+				B13EFDD7274000190018F620 /* HomeView.swift in Sources */,
+				B1FD305C2741B06600075392 /* StoriesView.swift in Sources */,
+				B1ED7CDD274019370051822C /* ViewModel.swift in Sources */,
+				B13EFDD5274000190018F620 /* InstasoupApp.swift in Sources */,
+				B1ED7CDF274019CC0051822C /* ViewModelMockFactory.swift in Sources */,
+				B1FD30642741B0C800075392 /* HeaderView.swift in Sources */,
+				B1FD30692741B12100075392 /* ActionButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B13EFDDD274000200018F620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B13EFDDE274000200018F620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B13EFDE0274000200018F620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Instasoup/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Instasoup/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x.Instasoup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B13EFDE1274000200018F620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Instasoup/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Instasoup/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = x.Instasoup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B13EFDCC274000190018F620 /* Build configuration list for PBXProject "Instasoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13EFDDD274000200018F620 /* Debug */,
+				B13EFDDE274000200018F620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13EFDDF274000200018F620 /* Build configuration list for PBXNativeTarget "Instasoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13EFDE0274000200018F620 /* Debug */,
+				B13EFDE1274000200018F620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B13EFDC9274000190018F620 /* Project object */;
+}
