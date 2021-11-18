@@ -1,3 +1,7 @@
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/Swift-5.5-green.svg)]()
+[![License](https://img.shields.io/badge/Xcode-13-green.svg)]()
+
 # Instasoup
 Is a quick code excercise, where I wanted to do fast prototaping of the Instagram like home view screen in #SwiftUI
 
